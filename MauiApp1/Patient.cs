@@ -14,6 +14,6 @@ namespace MauiApp1
         public string MedicalHistory { get; set; }
         public BloodworkStatus BloodworkStatus { get; set; }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged ;
     }
 }
